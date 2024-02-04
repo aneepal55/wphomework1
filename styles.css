@@ -1,0 +1,143 @@
+body {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(gray.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header {
+    border: 5px solid blue;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px; 
+    margin: auto;
+    width: 25%;
+}
+
+.header img {
+    max-width: 90%;
+    max-height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.main {
+    display: flex;
+}
+
+.main > div {
+    height: 620px;
+    padding: 10px;
+}
+
+.leftbar, .rightbar {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.list-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.leftbar table {
+    height: 100%;
+    width: 100%;
+}
+
+.leftbar td, .leftbar th {
+    text-align: left;
+    padding: 8px;
+}
+
+.leftbar th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: black;
+    color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-list {
+    list-style-position: inside;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    display: block;
+    font-size: 20px;
+}
+
+.rightbar {
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 17px;
+}
+
+.rightbar-list, .rightbar h2 {
+    word-wrap: break-word;
+}
+
+.footer {
+    height: 0px;
+    text-align: center;
+    line-height: 80px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #add8e6;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.redbold {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    color: lightblue;
+}
+
+.linkedin {
+    text-align: center;
+}
+
+.sep {
+    color: black;
+}
